@@ -89,7 +89,7 @@ function Signup() {
           id: 2,
           title: "Буба-Буба",
           level: 0,
-          price: 500,
+          price: 8000,
           image: "https://i.ibb.co/sW1b7hy/icon-boost-2.png",
           power: 8,
         },
@@ -100,7 +100,7 @@ function Signup() {
           price: 50000,
           image:
             "https://i.ibb.co/hX68f3S/realistic-transparent-3d-bubbles-underwater-soap-bubbles-vector-illustration-png.webp",
-          power: 28,
+          power: 20,
         },
         {
           id: 4,
@@ -108,7 +108,7 @@ function Signup() {
           level: 0,
           price: 1000000,
           image: "https://i.ibb.co/CwvgrWJ/icon.png",
-          power: 70,
+          power: 40,
         },
       ],
     };
