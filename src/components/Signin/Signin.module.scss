@@ -1,0 +1,66 @@
+.root {
+  max-width: 310px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  border: 1px solid #ffffff45;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  padding-bottom: 10px;
+  margin-top: 40px;
+  color: #fff;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: 600;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    outline: none;
+    color: #232323;
+    letter-spacing: 1px;
+    padding: 12px 12px;
+  }
+
+  :global {
+    input {
+      &.error {
+        background-color: #8f5499;
+        border-color: #ffffff;
+        color: #fff;
+      }
+    }
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #587bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    max-width: 160px;
+    margin: 0 auto;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.25s ease all;
+    outline: none;
+
+    &:active {
+      background-color: darken(#587bff, 10%);
+    }
+  }
+}
